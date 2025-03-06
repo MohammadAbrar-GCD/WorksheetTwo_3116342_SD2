@@ -2,7 +2,8 @@ package griffith;
 
 public class conversions {
 	
-	
+	//Converts euro to dollar
+	//1 EUR = 1.1 USD
 	public double euroToDollar(double euro) {
 	    return euro * 1.1;
 	}
