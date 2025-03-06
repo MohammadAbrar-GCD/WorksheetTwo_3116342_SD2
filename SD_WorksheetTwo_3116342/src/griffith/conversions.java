@@ -2,9 +2,10 @@ package griffith;
 
 public class conversions {
 	
-	  public double euroToDollar(double euro) {
-	        return 0.0; // stub method
-	    }
+	
+	public double euroToDollar(double euro) {
+	    return euro * 1.1;
+	}
 	  
 	  public double dollarToEuro(double dollar) {
 	        return 0.0; // stub method
