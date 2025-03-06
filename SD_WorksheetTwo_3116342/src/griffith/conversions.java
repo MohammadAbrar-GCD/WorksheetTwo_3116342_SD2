@@ -8,9 +8,11 @@ public class conversions {
 	    return euro * 1.1;
 	}
 	  
-	  public double dollarToEuro(double dollar) {
-	        return 0.0; // stub method
-	    }
+	 // Converts Dollars to Euro
+	// 1 USD = 0.91 EUR)
+    public double dollarToEuro(double dollar) {
+        return dollar * 0.91; 
+    }
 
 	  public int stringToInteger(String val) {
 	        return 0; // stub method
