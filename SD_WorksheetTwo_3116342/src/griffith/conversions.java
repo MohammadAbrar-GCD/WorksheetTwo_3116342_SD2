@@ -19,9 +19,10 @@ public class conversions {
     }
 
 
-	    public String integerToString(int val) {
-	        return ""; // stub method
-	    }
+    // Converts an integer to a string
+    public String integerToString(int val) {
+        return String.valueOf(val); // Converts int to string
+    }
 
 	    public String switchCase(String input) {
 	        return ""; // stub method
