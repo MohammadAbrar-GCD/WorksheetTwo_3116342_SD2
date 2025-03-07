@@ -55,6 +55,23 @@ class conversionsTest {
 	        assertEquals("1234", conversions.switchCase("1234")); //
 	    }
 	 
+	// Switches uppercase letters to lowercase and vice versa
+	    public String switchCase(String input) {
+	        StringBuilder result = new StringBuilder();
+	        
+	        for (char c : input.toCharArray()) {
+	            if (Character.isUpperCase(c)) {
+	                result.append(Character.toLowerCase(c));
+	            } else if (Character.isLowerCase(c)) {
+	                result.append(Character.toUpperCase(c));
+	            } else {
+	                result.append(c); // Keep non-alphabetic characters unchanged
+	            }
+	        }
+	        
+	        return result.toString();
+	    }
+	 
 	 
 
 }
