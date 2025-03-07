@@ -35,5 +35,14 @@ class conversionsTest {
 	        assertEquals(-45, conversions.stringToInteger("-45"));
 	        assertEquals(0, conversions.stringToInteger("0"));
 	    }
+	 
+	 public void testIntegerToString() {
+	        conversions conversions = new conversions();
+
+	        // Test different integer inputs
+	        assertEquals("123", conversions.integerToString(123));
+	        assertEquals("-45", conversions.integerToString(-45));
+	        assertEquals("0", conversions.integerToString(0));
+	    }
 
 }
