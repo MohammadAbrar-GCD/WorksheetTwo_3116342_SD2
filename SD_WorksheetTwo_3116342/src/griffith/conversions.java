@@ -13,10 +13,11 @@ public class conversions {
     public double dollarToEuro(double dollar) {
         return dollar * 0.91; 
     }
+    // Converts a numeric string to an integer
+    public int stringToInteger(String val) {
+        return Integer.parseInt(val); // Converts string to int
+    }
 
-	  public int stringToInteger(String val) {
-	        return 0; // stub method
-	    }
 
 	    public String integerToString(int val) {
 	        return ""; // stub method
